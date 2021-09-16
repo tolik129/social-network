@@ -1,0 +1,43 @@
+.dialogs{
+display: flex;
+}
+.dialogsItems{
+	width: 30%;
+	border-right: 1px solid #000;
+}
+.dialogsItems .dialog{
+	display: block;
+	padding: 15px;
+	border-radius: 20px;
+	background: rgb(2,0,36);
+    background-image: linear-gradient(to right, #1D976C 0%, #93F9B9  51%, #1D976C  100%);
+	box-shadow: 0 0 10px  #EB3349;
+	margin: 20px;
+	color: #fff;
+} 
+.dialogsItems .active{
+	background: yellow;
+	color: #000;
+}
+.messages{
+width: 50%;
+}
+.messages .message{
+	display: block;
+	padding: 15px;
+	border-radius: 20px;
+	background: rgb(2,0,36);
+    background-image: linear-gradient(to right, #1FA2FF 0%, #12D8FA  51%, #1FA2FF  100%);
+	box-shadow: 0 0 10px  #EB3349;
+	margin: 20px;
+	color: #fff;
+} 
+
+      
+
+       
+         
+        
+         
+       
+         
